@@ -35,7 +35,7 @@ let enviroment = {
       title: 'test 1',
       msg: 'this is the message...',
       img: 'https://placehold.it/250x250',
-      // strict outcome 
+      // strict outcome
       outcome: [{
         img: 'https://placehold.it/250x250',
         msg: 'this is a good outcome...',

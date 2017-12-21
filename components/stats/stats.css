@@ -1,4 +1,4 @@
-div#stat-container {
+div#stat-hearts {
   position: fixed;
   top: 15px;
   right: 15px;
@@ -9,7 +9,7 @@ img.hearts {
   width: 30px;
 }
 
-img.hearts:last-child { 
+img.hearts:last-child {
 	animation: beat infinite .5s;
 }
 
@@ -23,4 +23,16 @@ img.hearts:last-child {
   100% {
     width: 30px
   }
+}
+
+div#stat-points {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  color: black;
+  height: 30px;
+  width: 100px;
+  background-color: white;
+  text-align: center;
+  line-height: 25px;;
 }
