@@ -1,0 +1,26 @@
+div#stat-container {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  text-align: right;
+}
+
+img.hearts {
+  width: 30px;
+}
+
+img.hearts:last-child { 
+	animation: beat infinite .5s;
+}
+
+@keyframes beat {
+  0% {
+    width: 30px;
+  }
+  50% {
+    width: 35px
+  }
+  100% {
+    width: 30px
+  }
+}
