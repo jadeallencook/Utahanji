@@ -1,0 +1,12 @@
+/* import outside css files */
+@import url("components/stats/stats.css");
+
+
+img.hearts {
+  float: right;
+  max-width: 30px;
+}
+
+img.hearts:last { 
+	animation: beat infinite;
+}
