@@ -1,13 +1,26 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- css -->
     <link rel="stylesheet" href="style.js"/>
   </head>
   <body>
+    <!-- container -->
     <div id="utahanji">
-      <div id="stats-container"></div>
+      <!-- stats -->
+      <div id="stat-container">
+        <!-- hearts -->
+        <div id="stat-hearts">
+          <div class="stat-heart"></div>
+          <div class="stat-heart"></div>
+          <div class="stat-heart"></div>
+        </div>
+        <!-- points -->
+        <div id="stat-points">0 points</div>
+      </div>
     </div>
-    <script type="text/javascript" src="components/menu-bar.js"></script>
-    <script type="text/javascript" src="app.js"></script>
+    <!-- js -->
+    <script src="components/stats/stats.js"></script>
+    <script src="app.js"></script>
   </body>
 </html>
