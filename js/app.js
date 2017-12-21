@@ -1,5 +1,5 @@
 // game scope
 (function() {
-  // init the manu menu
+  // init the main menu
   mainMenu.init();
 })();
