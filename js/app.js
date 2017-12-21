@@ -1,5 +1,5 @@
 // game scope
 (function() {
-  console.log(enviroment);
+  // init the main menu
   mainMenu.init();
 })();

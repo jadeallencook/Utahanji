@@ -9,9 +9,10 @@
 <body>
   <!-- container -->
   <div id="utahanji">
+    <!-- main menu -->
     <div id="main-menu-container">
       <h1 id="main-menu-title">Utahanji</h1>
-      <div class="main-menu-btn">New Game</div>
+      <div class="main-menu-btn" id="new-game">New Game</div>
       <p id="main-menu-footer">Copyright 2018</p>
     </div>
     <!-- stats -->
@@ -25,12 +26,19 @@
       <!-- points -->
       <div id="stat-points">0 Points</div>
     </div>
+    <!-- scene -->
+    <div id="scene-container">
+      <h1 id="scene-title"></h1>
+      <span id="scene-msg"></span>
+      <div id="scene-options"></div>
+    </div>
   </div>
   <!-- enviroment vars -->
   <script src="js/enviroment.js"></script>
   <!-- components -->
   <script src="components/main-menu/main-menu.js"></script>
   <script src="components/stats/stats.js"></script>
+  <script src="components/scene/scene.js"></script>
   <!-- game build -->
   <script src="js/app.js"></script>
 </body>

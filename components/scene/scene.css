@@ -1,0 +1,19 @@
+div#scene-container {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+div#scene-options {
+  margin: 15px;
+}
+
+div.scene-option {
+  background-color: #fff;
+  color: #000;
+  display: inline-block;
+  padding: 5px 15px;
+  margin: 5px;
+  cursor: pointer;
+}
