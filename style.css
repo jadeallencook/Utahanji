@@ -1,2 +1,6 @@
+/* global styles */
+@import url("global.css");
+
 /* import component css */
 @import url("components/stats/stats.css");
+@import url("components/main-menu/main-menu.css");
