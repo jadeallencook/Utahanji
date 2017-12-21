@@ -25,7 +25,6 @@ let enviroment = {
     }, {
       title: 'Turn Back',
       msg: 'this is the message...',
-<<<<<<< HEAD
       img: 'https://placehold.it/250x250',
       // strict outcome
       outcome: [{
@@ -33,9 +32,6 @@ let enviroment = {
         msg: 'this is a good outcome...',
         health: 2
       }]
-=======
-      hearts: -3
->>>>>>> 7c06493a7d10fa2029745bb88b4880ee3970e93e
     }]
   }]
 }
