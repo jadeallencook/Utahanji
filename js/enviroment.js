@@ -1,4 +1,5 @@
 let enviroment = {
+  dev: true,
   // player stats
   player: {
     hearts: 3,

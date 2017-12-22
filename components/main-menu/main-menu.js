@@ -1,5 +1,6 @@
 const mainMenu = {
   newGame: function() {
+    if (enviroment.dev) console.log('EVENT: New game started');
     // reset player
     enviroment.player.hearts = 3;
     enviroment.player.pointers = 0;

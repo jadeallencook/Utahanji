@@ -1,5 +1,6 @@
 const scene = {
   display: function(num) {
+    if (enviroment.dev) console.log('SCENE: Building scene #' + num);
     // cache build data
     const data = enviroment.board[num];
     // update scene content
