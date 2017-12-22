@@ -1,9 +1,8 @@
 const gameOver = {
-  gameOver: function() {
-
-  },
   init: function() {
+    if (enviroment.dev) console.log('EVENT: Game over...');
+    document.getElementById('game-over-container').style.display = 'block';
     // attach event listeners to btns
-    document.getElementById('restart').onclick = mainMenu.newGame;
+    document.getElementById('restart-btn').onclick = mainMenu.newGame;
   }
 }

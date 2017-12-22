@@ -3,7 +3,7 @@ const mainMenu = {
     if (enviroment.dev) console.log('EVENT: New game started');
     // reset player
     enviroment.player.hearts = 3;
-    enviroment.player.pointers = 0;
+    enviroment.player.points = 0;
     // hide main menu
     document.getElementById('main-menu-container').style.display = 'none';
     // show first scene

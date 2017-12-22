@@ -32,7 +32,9 @@ const scene = {
           }
         } else {
           // player died
-          console.log('game over');
+          console.log(document.getElementById('scene-container'));
+          document.getElementById('scene-container').style.display = 'none';
+          gameOver.init();
         }
       }
     }
