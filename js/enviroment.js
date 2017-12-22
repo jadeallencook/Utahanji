@@ -15,7 +15,7 @@ let enviroment = {
     // scene title
     title: 'Zion',
     // background image
-    img: 'https://placehold.it/250x250',
+    img: 'assets/zion.jpg',
     // question/msg
     msg: 'You\'re in a southwest Utah nature preserve distinguished by steep red cliffs, heading north from Vegas. What is your next move? ',
     // btn options

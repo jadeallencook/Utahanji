@@ -15,30 +15,39 @@
   <!-- container -->
   <div id="utahanji">
     <!-- main menu -->
-    <div id="main-menu-container">
+    <div id="main-menu-container" class="animated fadeIn">
       <div id="main-menu-content">
         <h1 id="main-menu-title" class="animated bounceInLeft">Utahanji</h1>
         <div class="btn animated bounceInRight" id="new-game">New Game</div>
+        <div class="btn animated bounceInRight" id="about-game">About</div>
         <p id="main-menu-footer" class="animated bounceInUp">Deseret News Copyright 2018</p>
       </div>
     </div>
-    <!-- stats -->
-    <div id="stat-container">
-      <!-- hearts -->
-      <div id="stat-hearts" class="animated bounceInDown">
-        <div class="heart-container"></div>
-        <div class="heart-container"></div>
-        <div class="heart-container"></div>
-      </div>
-      <!-- points -->
-      <div id="stat-points" class="animated bounceInDown">0 Points</div>
-    </div>
     <!-- scene -->
-    <div id="scene-container">
-      <h1 id="scene-title" class="animated fadeIn"></h1>
-      <span id="scene-msg" class="animated slideInLeft"></span>
-      <div id="scene-options" class="animated slideInRight"></div>
+    <div id="scene-container" class="animated fadeIn">
+      <div id="scene-content">
+        <h1 id="scene-title" class="animated fadeIn"></h1>
+        <span id="scene-msg" class="animated slideInLeft"></span>
+        <div id="scene-options" class="animated slideInRight"></div>
+      </div>
     </div>
+    <!-- game over -->
+    <div id="game-over-container">
+      <h1>Game Over</h1>
+      <div class="btn">Restart</div>
+      <div class="btn">Main Menu</div>
+    </div>
+  </div>
+  <!-- stats -->
+  <div id="stat-container">
+    <!-- hearts -->
+    <div id="stat-hearts" class="animated bounceInDown">
+      <div class="heart-container"></div>
+      <div class="heart-container"></div>
+      <div class="heart-container"></div>
+    </div>
+    <!-- points -->
+    <div id="stat-points" class="animated bounceInDown">0 Points</div>
   </div>
   <!-- enviroment vars -->
   <script src="js/enviroment.js"></script>

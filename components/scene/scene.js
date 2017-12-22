@@ -7,6 +7,7 @@ const scene = {
     // update scene content
     document.getElementById('scene-title').innerText = data.title;
     document.getElementById('scene-msg').innerText = data.msg;
+    document.getElementById('scene-container').style.backgroundImage = 'url(' + data.img + ')';
     // add each button
     document.getElementById('scene-options').innerHTML = '';
     for (let option of data.options) {
