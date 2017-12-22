@@ -18,6 +18,14 @@ h1 {
   font-family: 'Bungee', cursive;
 }
 
+div#main-menu-container,
+div#scene-container,
+div#game-over-container {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+}
+
 * {
   margin: 0px;
   padding: 0px;

@@ -3,7 +3,6 @@ div#main-menu-container {
   background-image: url(../../assets/main-menu.png);
   background-position: center center;
   background-size: cover;
-  height: 100%;
   display: none;
 }
 
