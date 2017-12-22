@@ -3,6 +3,7 @@ div#scene-container {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
+  display: none;
 }
 
 div#scene-options {
