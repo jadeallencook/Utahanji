@@ -12,11 +12,13 @@ div#main-menu-container h1 {
 
 div.main-menu-btn {
   background-color: #fff;
-  width: 250px;
+  width: 50%;
+  height: 100px;
   color: #000;
   padding: 15px;
   cursor: pointer;
   margin: 15px auto;
+  font-size: 80px;
 }
 
 div.main-menu-btn:hover {
