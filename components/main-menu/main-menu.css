@@ -1,5 +1,12 @@
 div#main-menu-container {
   text-align: center;
+  background-image: url(../../assets/main-menu.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+}
+
+div#main-menu-content {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
