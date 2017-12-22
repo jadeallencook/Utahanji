@@ -7,7 +7,8 @@ const mainMenu = {
     // hide main menu
     document.getElementById('main-menu-container').style.display = 'none';
     // show first scene
-    scene.display(0);
+    enviroment.game.level = 0;
+    scene.display(enviroment.game.level);
   },
   init: function() {
     // attach event listeners to btns

@@ -8,7 +8,8 @@ let enviroment = {
   // game enviroment
   game: {
     // ex: [1, 6]
-    roll: false
+    roll: false,
+    level: 0
   },
   // board tiles
   board: [{
@@ -17,22 +18,31 @@ let enviroment = {
     // background image
     img: 'assets/zion.jpg',
     // question/msg
-    msg: 'You\'re in a southwest Utah nature preserve distinguished by steep red cliffs, heading north from Vegas. What is your next move? ',
+    msg: 'You\'re in a southwest Utah nature preserve distinguished by steep red cliffs, heading north from Vegas. What is your next move?',
     // btn options
     options: [{
       title: 'Keep Going',
       msg: 'this is the message...',
-      hearts: 0
+      hearts: 1
     }, {
       title: 'Turn Back',
       msg: 'this is the message...',
       img: 'https://placehold.it/250x250',
-      // strict outcome
-      outcome: [{
-        img: 'https://placehold.it/250x250',
-        msg: 'this is a good outcome...',
-        health: 2
-      }]
+      hearts: -2
+    }]
+  }, {
+    title: 'Salt Lake',
+    img: 'assets/zion.jpg',
+    msg: 'You\'ve arrived to Salt Lake City!',
+    options: [{
+      title: 'Keep Going',
+      msg: 'this is the message...',
+      hearts: 1
+    }, {
+      title: 'Turn Back',
+      msg: 'this is the message...',
+      img: 'https://placehold.it/250x250',
+      hearts: -2
     }]
   }]
 }
