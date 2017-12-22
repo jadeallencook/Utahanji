@@ -11,6 +11,7 @@ const mainMenu = {
     scene.display(enviroment.game.level);
   },
   init: function() {
+    document.getElementById('main-menu-container').style.display = 'block';
     // attach event listeners to btns
     document.getElementById('new-game').onclick = this.newGame;
   }
