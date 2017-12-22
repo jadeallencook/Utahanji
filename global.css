@@ -3,7 +3,7 @@ body,
 div#utahanji {
   height: 100%;
   width: 100%;
-  font-family: Helvetica;
+  font-family: 'VT323', monospace;
   overflow: hidden;
 }
 
@@ -15,6 +15,7 @@ div#utahanji {
 h1 {
   font-size: 7em;
   font-weight: 100;
+  font-family: 'Bungee', cursive;
 }
 
 * {
