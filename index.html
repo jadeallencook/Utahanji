@@ -15,8 +15,8 @@
   <!-- container -->
   <div id="utahanji">
     <!-- main menu -->
-    <div id="main-menu-container" class="animated fadeIn">
-      <div id="main-menu-content">
+    <div id="main-menu-container" class="animated fadeIn fit-to-screen">
+      <div class="vertical-align">
         <h1 id="main-menu-title" class="animated bounceInLeft">Utahanji</h1>
         <div class="btn animated bounceInRight" id="new-game">New Game</div>
         <div class="btn animated bounceInRight" id="about-game">About</div>
@@ -24,18 +24,20 @@
       </div>
     </div>
     <!-- scene -->
-    <div id="scene-container" class="animated fadeIn">
-      <div id="scene-content">
+    <div id="scene-container" class="animated fadeIn fit-to-screen">
+      <div class="vertical-align">
         <h1 id="scene-title" class="animated fadeIn"></h1>
         <span id="scene-msg" class="animated slideInLeft"></span>
         <div id="scene-options" class="animated slideInRight"></div>
       </div>
     </div>
     <!-- game over -->
-    <div id="game-over-container">
-      <h1 id="game-over" class="animated fadeIn">Game Over</h1>
-      <div id="restart-btn" class="btn animated bounceInRight">Restart</div>
-      <div id="main-menu" class="btn animated bounceInRight">Main Menu</div>
+    <div id="game-over-container" class="fit-to-screen">
+      <div class="vertical-align">
+        <h1 id="game-over" class="animated fadeIn">Game Over</h1>
+        <div id="restart-btn" class="btn animated bounceInRight">Restart</div>
+        <div id="main-menu-btn" class="btn animated bounceInRight">Main Menu</div>
+      </div>
     </div>
     <!-- stats -->
     <div id="stat-container">
@@ -57,6 +59,7 @@
   <script src="components/scene/scene.js"></script>
   <script src="components/game-over/game-over.js"></script>
   <!-- game build -->
+  <script src="js/game.js"></script>
   <script src="js/app.js"></script>
 </body>
 

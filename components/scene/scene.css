@@ -1,16 +1,7 @@
 div#scene-container {
-  height: 100%;
-  width: 100%;
   display: none;
   background-size: cover;
   background-position: center center;
-}
-
-div#scene-content {
-  text-align: center;
-  position: relative;
-  top: 40%;
-  transform: translateY(-40%);
 }
 
 div#scene-options {

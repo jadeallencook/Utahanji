@@ -3,7 +3,7 @@ const stats = {
     // dev
     if (enviroment.dev) console.log('STAT: ' + num + ' hearts added to health');
     // computate hearts
-    enviroment.player.hearts = enviroment.player.hearts + num;
+    if (num) enviroment.player.hearts = enviroment.player.hearts + num;
     if (enviroment.player.hearts > 8) enviroment.player.hearts = 8;
     // reset hearts container
     document.getElementById('stat-hearts').innerHTML = '';
@@ -17,7 +17,7 @@ const stats = {
     // dev
     if (enviroment.dev) console.log('STAT: ' + num + ' points added to score');
     // computate points
-    enviroment.player.points = enviroment.player.points + num;
+    if (num) enviroment.player.points = enviroment.player.points + num;
     // update point html
     document.getElementById('stat-points').innerHTML = enviroment.player.points + " Points";
   }

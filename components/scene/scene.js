@@ -1,5 +1,6 @@
 const scene = {
   display: function(num) {
+    game.hideAllScreens();
     if (enviroment.dev) console.log('SCENE: Building scene #' + num);
     // cache build data
     const data = enviroment.board[num];
@@ -23,7 +24,6 @@ const scene = {
         stats.updateHealth(data.options[choice].hearts);
         if (enviroment.player.hearts > 0) {
           // go to next level
-          document.getElementById('scene-container').style.display = 'none';
           enviroment.game.level++;
           if (enviroment.game.level < enviroment.board.length) {
             scene.display(enviroment.game.level);
@@ -32,7 +32,6 @@ const scene = {
           }
         } else {
           // player died
-          console.log(document.getElementById('scene-container'));
           document.getElementById('scene-container').style.display = 'none';
           gameOver.init();
         }

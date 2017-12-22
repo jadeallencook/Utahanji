@@ -6,12 +6,6 @@ div#main-menu-container {
   display: none;
 }
 
-div#main-menu-content {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
 div#main-menu-container h1 {
   margin-bottom: 100px;
 }
