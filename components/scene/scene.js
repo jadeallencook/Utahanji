@@ -8,7 +8,7 @@ const scene = {
     // add each button
     document.getElementById('scene-options').innerHTML = '';
     for (let option of data.options) {
-      const html = '<div class="scene-option">' + option.title + '</div>';
+      const html = '<div class="btn">' + option.title + '</div>';
       document.getElementById('scene-options').innerHTML += html;
     }
   }

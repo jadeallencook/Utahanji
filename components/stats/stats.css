@@ -6,8 +6,8 @@ div#stat-hearts {
 }
 
 div.heart-container {
-  width: 40px;
-  height: 40px;
+  width: 100px;
+  height: 100px;
   background-position: center center;
   background-size: 75%;
   display: inline-block;
@@ -33,12 +33,10 @@ div.heart-container:last-child {
 
 div#stat-points {
   position: absolute;
-  top: 15px;
-  left: 15px;
-  color: black;
+  top: 140px;
+  right: 35px;
+  color: #fff;
   height: 30px;
-  width: 100px;
-  background-color: white;
   text-align: center;
-  line-height: 25px;;
+  font-size: 3em;
 }

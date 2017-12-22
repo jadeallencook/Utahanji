@@ -6,14 +6,23 @@ div#scene-container {
 }
 
 div#scene-options {
-  margin: 15px;
+  margin: 50px 0px;
 }
 
 div.scene-option {
   background-color: #fff;
   color: #000;
-  display: inline-block;
+  display: block;
   padding: 5px 15px;
   margin: 5px;
+  font-size: 3em;
   cursor: pointer;
+}
+
+span#scene-msg {
+  font-size: 3em;
+  font-weight: 100;
+  display: block;
+  padding: 15px 50px;
+  text-align: center;
 }

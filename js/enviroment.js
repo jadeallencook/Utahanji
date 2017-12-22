@@ -12,11 +12,11 @@ let enviroment = {
   // board tiles
   board: [{
     // scene title
-    title: 'Genesis',
+    title: 'Zion',
     // background image
     img: 'https://placehold.it/250x250',
     // question/msg
-    msg: 'You arrive in Zion...',
+    msg: 'You\'re in a southwest Utah nature preserve distinguished by steep red cliffs, heading north from Vegas. What is your next move? ',
     // btn options
     options: [{
       title: 'Keep Going',

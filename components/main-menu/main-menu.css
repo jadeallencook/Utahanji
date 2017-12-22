@@ -6,19 +6,17 @@ div#main-menu-container {
 }
 
 div#main-menu-container h1 {
-  font-weight: 100;
-  font-size: 5em;
+  margin-bottom: 100px;
 }
 
 div.main-menu-btn {
   background-color: #fff;
   width: 50%;
-  height: 100px;
   color: #000;
   padding: 15px;
   cursor: pointer;
   margin: 15px auto;
-  font-size: 80px;
+  font-size: 4em;
 }
 
 div.main-menu-btn:hover {
@@ -26,5 +24,6 @@ div.main-menu-btn:hover {
 }
 
 p#main-menu-footer {
-  font-size: 0.75em;
+  margin-top: 100px;
+  font-size: 1.75em;
 }
