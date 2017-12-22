@@ -35,7 +35,7 @@ let enviroment = {
     }]
   }, {
     "title": "Bryce Canyon",
-    "lvl-desc": "You arrive at Bryce. Should you hike or tour?",
+    "msg": "You arrive at Bryce. Should you hike or tour?",
     "img": "",
     "options": [{
       "title": "Hike",
@@ -56,7 +56,7 @@ let enviroment = {
     }]
   }, {
     "title": "Manti",
-    "lvl-desc": "Visit ranch in Manti",
+    "msg": "Visit ranch in Manti",
     "img": "",
     "options": [{
       "title": "Open home",
@@ -77,7 +77,7 @@ let enviroment = {
     }]
   }, {
     "title": "Provo",
-    "lvl-desc": "Your journey brings you to Provo.",
+    "msg": "Your journey brings you to Provo.",
     "img": "",
     "options": [{
       "title": "Visit BYU",
@@ -98,7 +98,7 @@ let enviroment = {
     }]
   }, {
     "title": "Lehi",
-    "lvl-desc": "You're finally in Lehi, where there are tons of tech companies. Where do you visit?",
+    "msg": "You're finally in Lehi, where there are tons of tech companies. Where do you visit?",
     "img": "",
     "options": [{
       "title": "Adobe office",
@@ -119,7 +119,7 @@ let enviroment = {
     }]
   }, {
     "title": "Rio Tinto Stadium",
-    "lvl-desc": "Journey brings you to the RSL stadium. Choose RSL's opponent.",
+    "msg": "Journey brings you to the RSL stadium. Choose RSL's opponent.",
     "img": "",
     "options": [{
       "title": "Sporting KC",
@@ -140,7 +140,7 @@ let enviroment = {
     }]
   }, {
     "title": "Sugar House",
-    "lvl-desc": "What restaurant do you eat at?",
+    "msg": "What restaurant do you eat at?",
     "img": "",
     "options": [{
       "title": "The Dodo",
@@ -161,7 +161,7 @@ let enviroment = {
     }]
   }, {
     "title": "Trax",
-    "lvl-desc": "Which Trax line do you take?",
+    "msg": "Which Trax line do you take?",
     "img": "",
     "options": [{
       "title": "Red",
@@ -182,7 +182,7 @@ let enviroment = {
     }]
   }, {
     "title": "Triad Center",
-    "lvl-desc": "Which floor do you visit?",
+    "msg": "Which floor do you visit?",
     "img": "",
     "options": [{
       "title": 5,
@@ -203,7 +203,7 @@ let enviroment = {
     }]
   }, {
     "title": "Salt Lake City",
-    "lvl-desc": "Pick a street.",
+    "msg": "Pick a street.",
     "img": "",
     "options": [{
       "title": "West Temple",
@@ -224,7 +224,7 @@ let enviroment = {
     }]
   }, {
     "title": "Salt Lake City Downtown",
-    "lvl-desc": "Choose your final location.",
+    "msg": "Choose your final location.",
     "img": "",
     "options": [{
       "title": "Capitol",
@@ -245,7 +245,7 @@ let enviroment = {
     }]
   }, {
     "title": "Daybreak",
-    "lvl-desc": "Pick an activity.",
+    "msg": "Pick an activity.",
     "img": "",
     "options": [{
       "title": "Take TRAX",
