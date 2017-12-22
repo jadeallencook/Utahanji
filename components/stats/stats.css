@@ -5,23 +5,29 @@ div#stat-hearts {
   text-align: right;
 }
 
-img.hearts {
-  width: 30px;
+div.heart-container {
+  width: 40px;
+  height: 40px;
+  background-position: center center;
+  background-size: 75%;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url(../../assets/heart.png);
 }
 
-img.hearts:last-child {
+div.heart-container:last-child {
 	animation: beat infinite .5s;
 }
 
 @keyframes beat {
   0% {
-    width: 30px;
+    background-size: 75%;
   }
   50% {
-    width: 35px
+    background-size: 100%;
   }
   100% {
-    width: 30px
+    background-size: 75%;
   }
 }
 
