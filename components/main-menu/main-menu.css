@@ -4,7 +4,7 @@ div#main-menu-container {
   background-position: center center;
   background-size: cover;
   height: 100%;
-  display: block;
+  display: none;
 }
 
 div#main-menu-content {
