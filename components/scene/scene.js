@@ -1,4 +1,14 @@
 const scene = {
+  addAnimations: function() {
+    document.getElementById('scene-title').className = 'animated fadeIn';
+    document.getElementById('scene-msg').className = 'animated slideInLeft';
+    document.getElementById('scene-options').className = 'animated slideInRight';
+  },
+  removeAnimations: function() {
+    document.getElementById('scene-title').className = '';
+    document.getElementById('scene-msg').className = '';
+    document.getElementById('scene-options').className = '';
+  },
   display: function (num) {
     game.hideAllScreens();
     if (enviroment.dev) console.log('SCENE: Building scene #' + num);
@@ -9,6 +19,7 @@ const scene = {
     document.getElementById('scene-msg').innerText = data.msg;
     document.getElementById('scene-container').style.backgroundImage = 'url(' + data.img + ')';
     document.getElementById('scene-container').style.display = 'block';
+    scene.addAnimations();
     // add each button
     document.getElementById('scene-options').innerHTML = '';
     for (let x = 0, max = data.options.length; x < max; x++) {
@@ -29,6 +40,7 @@ const scene = {
         }
         // show results
         scene.result(num, choice);
+        scene.removeAnimations();
       }
     }
   },

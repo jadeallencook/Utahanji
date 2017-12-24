@@ -1,6 +1,6 @@
 // game scope
 (function() {
   // init the main menu
-  if (!enviroment.dev) new Audio('assets/theme.mp3').play();
+  if (!enviroment.dev) sfx.menu.play();
   mainMenu.init();
 })();
