@@ -15,21 +15,21 @@ let enviroment = {
   board: [{
     "title": "St. George",
     "msg": "See sign for Mesquite or Zion National Park.",
-    "img": "",
+    "img": "assets/st-george.jpg",
     "options": [{
-      "title": "Choose Zion.",
-      "msg": "Journey continues.",
+      "title": "Zion",
+      "msg": "Journey continues...",
       "hearts": 1
     }, {
-      "title": "Choose Mesquite.",
+      "title": "Mesquite",
       "msg": "Sent back into Nevada.",
       "hearts": -1
     }, {
-      "title": "Go nowhere.",
+      "title": "Nowhere",
       "msg": "You run out of food.",
       "hearts": -1
     }, {
-      "title": "Gas station",
+      "title": "Gas Station",
       "msg": "Refuel or snacks",
       "hearts": 2
     }]

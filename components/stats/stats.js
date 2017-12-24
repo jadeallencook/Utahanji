@@ -4,13 +4,24 @@ const stats = {
     if (enviroment.dev) console.log('STAT: ' + num + ' hearts added to health');
     // computate hearts
     if (num) enviroment.player.hearts = enviroment.player.hearts + num;
-    if (enviroment.player.hearts > 8) enviroment.player.hearts = 8;
-    // reset hearts container
-    document.getElementById('stat-hearts').innerHTML = '';
+    if (enviroment.player.hearts > 8) num = 0;
+    // remove animations
+    const hearts = document.getElementsByClassName('heart-container');
+    for (var x = 0, max = hearts.length; x < max; x++) {
+      hearts[x].className = 'heart-container';
+    }
     // append hearts to container
-    for (let x = 0; x < enviroment.player.hearts; x++) {
-      let html = '<div class="heart-container"></div>';
-      document.getElementById('stat-hearts').innerHTML += html;
+    if (num < 0) {
+      num = num * -1;
+      for (let x = 0; x < num; x++) {
+        hearts[x].remove();
+      }
+    } else {
+      let html = '';
+      for (let x = 0; x < num; x++) {
+        html += '<div class="heart-container animated rollIn"></div>';
+      } 
+      document.getElementById('stat-hearts').innerHTML = html + document.getElementById('stat-hearts').innerHTML;
     }
   },
   updatePoints: function(num) {
@@ -19,6 +30,6 @@ const stats = {
     // computate points
     if (num) enviroment.player.points = enviroment.player.points + num;
     // update point html
-    document.getElementById('stat-points').innerHTML = enviroment.player.points + " Points";
+    // document.getElementById('stat-points').innerHTML = enviroment.player.points + " Points";
   }
 }
